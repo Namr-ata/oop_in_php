@@ -11,7 +11,9 @@
     }
     function getdetails(){
         return $this->name." ".$this->desc." ".$this->price." ";
-    
+    }
+    function getPrice() {
+        return $this->price;
     }
          } 
 class Employee{
